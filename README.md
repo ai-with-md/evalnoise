@@ -227,6 +227,7 @@ The two-way analysis is also checked against the textbook formulas, and run labe
 - **[aiEvalR](https://cran.r-project.org/package=aiEvalR)** brings generalizability theory to AI evaluation in R. evalnoise does it in Python with no dependencies, plus budget planning with API prices.
 - **Judge bias correction** with human labels ([judgy](https://github.com/ai-evals-course/judgy), [evalstats](https://github.com/ianarawjo/evalstats)) answers a different question: whether the judge agrees with people. evalnoise asks how much the score depends on which judge, wording and run you used.
 - **[evalsize](https://github.com/ai-with-md/evalsize)** tells you how many questions you need for a pass rate. evalnoise tells you whether more questions are even the right fix.
+- **[rolloutwatch](https://github.com/ai-with-md/rolloutwatch)**: whether a prompt or model change made quality worse, checking as often as you like without false alarms.
 
 ## Limits
 
